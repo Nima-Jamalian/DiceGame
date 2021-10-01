@@ -15,20 +15,55 @@
 </head>
 <body>
     <div class="container">
-        <h1><i class="fas fa-dice-six"></i> Roll the dice <i class="fas fa-dice-six"></i></h1>
+        <h1 class = "result"><i class="fas fa-dice-six"></i> Roll the dice <i class="fas fa-dice-six"></i></h1>
+        <div>
+            <button class = "rollBtn" onclick="onRollButtonClick()"> <i class="fas fa-dice-d6"></i></button>
+        </div>
           <div class="dice">
           <p>Player 1</p>
-          <i class="fas fa-dice-one img"></i>
+          <!-- Celebration Animation -->
+          <div class="confetti dice1 diceCelebrate">
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+        </div>
+          <i class="playerOneDice fas fa-dice-one img"></i>
         </div>
   
         <div class="dice">
           <p>Player 2</p>
-          <i class="fas fa-dice-one img"></i>
+          <!-- Celebration Animation -->
+          <div class="confetti dice2 diceCelebrate">
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+        </div>
+          <i class="playerTwoDice fas fa-dice-one img"></i>
         </div>
       </div>
     <script src="index.js"></script>
 </body>
 <footer>
-    <p>Made by Nima Jamalian</p>
+    <p>Made by <img class ="imgNima" src="/images/nimaphoto.png" alt=""><a href="https://nima-jamalian.github.io/CV/"> Nima Jamalian</a></p>
 </footer>
 </html>
