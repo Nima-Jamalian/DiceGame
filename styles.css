@@ -1,0 +1,38 @@
+body{
+    background-color: #345B63;
+}
+
+h1{
+    font-size: 8rem;
+    padding-bottom: 0;
+}
+
+p{
+    font-size: 2rem;
+}
+.container {
+    color: #D4ECDD;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+    padding: 0 90px;
+
+  }
+
+  .img{
+     font-size: 10rem;
+  }
+
+  footer {
+    margin-top: 20%;
+    color: #152D35;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
