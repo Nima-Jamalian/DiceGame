@@ -7,6 +7,12 @@ h1 {
   padding-bottom: 0;
 }
 
+@media screen and (max-width: 1259px) {
+    h1{
+        color: red;
+    }
+}
+
 p {
   font-size: 2rem;
 }
@@ -23,7 +29,7 @@ p {
   border-style: none;
   background-color: transparent;
   color: #d4ecdd;
-  font-size: 5rem;
+  font-size: 7rem;
   padding-bottom: 100px;
   transition: all 0.2s ease-in-out;
 
@@ -102,8 +108,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 10%;
-  height: 100%;
+  width: 9rem;
+  height: 40%;
   overflow: hidden;
   z-index: 1000;
 }
