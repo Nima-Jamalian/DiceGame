@@ -103,11 +103,11 @@ a:hover {
         width: 100%;
     }
     h1{
-        color: red;
+        /* color: red; */
         font-size: 250%;
     }
     .rollBtn{
-        color: red;
+        /* color: red; */
         font-size: 250%;
     }
 }
@@ -117,12 +117,12 @@ a:hover {
         width: 100%;
     }
     .rollBtn{
-        color: red;
+        /* color: red; */
         font-size: 250%;
         padding: 0;
     }
     h1{
-        color: green;
+        /* color: green; */
         font-size: 220%;
     }
 
