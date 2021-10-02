@@ -7,11 +7,7 @@ h1 {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 1259px) {
-    h1{
-        color: red;
-    }
-}
+
 
 p {
   font-size: 2rem;
@@ -90,7 +86,7 @@ footer {
   margin-bottom: 0;
 }
 .imgNima {
-  width: 2%;
+  width: 1.5rem;
 }
 
 a {
@@ -102,6 +98,46 @@ a:hover {
   color: #102127;
 }
 
+@media screen and (max-width: 1259px) {
+    .container{
+        width: 100%;
+    }
+    h1{
+        color: red;
+        font-size: 250%;
+    }
+    .rollBtn{
+        color: red;
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container{
+        width: 100%;
+    }
+    .rollBtn{
+        color: red;
+        font-size: 250%;
+        padding: 0;
+    }
+    h1{
+        color: green;
+        font-size: 220%;
+    }
+
+    p{
+        font-size: 1rem;
+
+    }
+    .dice{
+        padding: 0 30px;
+    }
+    .img{
+        font-size: 10rem;
+        padding: 0;
+    }
+}
 /* Celebration Animation */
 .confetti {
   display: flex;
